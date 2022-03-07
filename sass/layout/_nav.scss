@@ -1,0 +1,51 @@
+.nav-list .section {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list-item {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.nav-list-item::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 4px;
+  bottom: -33px;
+  left: 0;
+  background: var(--secondary-color);
+  border-radius: 2px;
+}
+
+.nav-list-item.active::after {
+  color: var(--secondary-color);
+  background: var(--secondary-color);
+  width: 100%;
+}
+
+.nav-list-item:hover::after {
+  width: 100%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-list-item-link {
+  color: var(--font-black-color);
+}
+
+.nav-list-item-link:hover,
+.nav-list-item-link:focus {
+  color: var(--secondary-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,49 @@
+.section-footer {
+  display: flex;
+  height: 100%;
+  background-color: #2f303a;
+  display: block;
+}
+
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-adress-wrapper {
+  margin-left: 15px;
+  padding-right: 70px;
+}
+
+.footer-logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+.footer-logo-accent {
+  color: #fff;
+}
+
+.footer-address,
+.li-footer-mail,
+.li-footer-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.mailto-footer-mail,
+.callto-footer-tel {
+  color: hsl(0, 0%, 60%);
+}
