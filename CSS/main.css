@@ -844,22 +844,22 @@ img {
   border-radius: 4px;
 }
 
-.filter-div {
+.filter__container {
   margin-top: 94px;
   margin-bottom: 50px;
   text-align: center;
 }
 
-.filter-list-item {
+.filter__item {
   display: inline-flex;
   align-items: center;
 }
 
-.filter-list-item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.button-filter {
+.filter__btn {
   height: 38px;
   background-color: #f5f4fa;
   border: 1px solid #f5f4fa;
@@ -872,9 +872,7 @@ img {
   padding: 6px 22px;
 }
 
-.button-filter:active,
-.button-filter:hover,
-.button-filter:focus {
+.filter__btn:active, .filter__btn:hover, .filter__btn:focus {
   background-color: var(--secondary-color);
   color: #fff;
   cursor: pointer;
