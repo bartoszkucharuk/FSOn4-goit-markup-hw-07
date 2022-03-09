@@ -1,9 +1,10 @@
-.portfolio {
+.portfolio__container {
   display: block;
   justify-content: center;
   padding-bottom: 94px;
 }
-.portfolio-list {
+
+.portfolio__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
