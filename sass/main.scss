@@ -5,7 +5,6 @@
 @import "./base/container";
 
 @import "./layout/header";
-@import "./layout/nav";
 @import "./layout/hero";
 @import "./layout/about";
 @import "./layout/what-we-do";
@@ -13,6 +12,7 @@
 @import "./layout/portfolio";
 @import "./layout/footer";
 
+@import "./components/menu";
 @import "./components/pseudoclasses";
 @import "./components/logo";
 @import "./components/nav-contact";
