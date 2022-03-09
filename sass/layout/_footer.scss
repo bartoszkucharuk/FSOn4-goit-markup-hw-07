@@ -10,20 +10,16 @@
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
 
   &__wrapper {
     margin-left: 15px;
-    padding-right: 70px;
+    padding-right: 0px;
+    border: 1px solid green;
   }
 
-  & p {
-    margin: 0px;
-    padding-top: 9px;
-  }
-
-  &__address {
+   &__address {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
