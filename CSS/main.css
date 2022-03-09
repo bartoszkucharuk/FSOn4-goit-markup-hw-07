@@ -179,7 +179,7 @@ img {
   fill: cover;
 }
 
-.header-what-we-do {
+.what-we-do__header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
@@ -188,7 +188,7 @@ img {
   margin-bottom: 50px;
 }
 
-.ul-what-we-do {
+.what-we-do__list {
   display: flex;
   justify-content: space-between;
   padding-left: 15px;
@@ -196,11 +196,11 @@ img {
   padding-bottom: 94px;
 }
 
-.li-what-we-do {
+.what-we-do__item {
   position: relative;
 }
 
-.what-we-do-label {
+.what-we-do__label {
   position: absolute;
   display: flex;
   justify-content: center;
