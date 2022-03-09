@@ -512,6 +512,7 @@ img {
   padding-top: 12px;
   padding-bottom: 20px;
   color: #fff;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -880,15 +881,17 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-newsletter-wrapper {
+.newsletter__wrapper {
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
   margin-right: 212px;
 }
 
-.footer-newslettet-input-text {
+.newsletter__text {
   position: relative;
+  margin-top: 12px;
+  margin-bottom: 20px;
   display: flex;
   font-family: var(--main-font);
   text-align: left;
@@ -900,14 +903,14 @@ img {
   color: #fff;
 }
 
-.newsletter {
+.newsletter__form {
   position: relative;
   display: flex;
   width: 363px;
   height: 50px;
 }
 
-.newsletter-email-input {
+.newsletter__input {
   display: flex;
   align-items: center;
   font-size: 16px;
@@ -924,10 +927,10 @@ img {
   border-radius: 4px;
 }
 
-.newsletter-submit-button {
+.newsletter__btn {
   position: absolute;
   display: block;
-  top: 44px;
+  top: 48px;
   left: 370px;
   display: flex;
   justify-content: start;
@@ -946,7 +949,7 @@ img {
   border-radius: 4px;
 }
 
-.newsletter-button-icon {
+.newsletter__icon {
   display: block;
   margin-left: 20px;
   margin-right: 13px;
