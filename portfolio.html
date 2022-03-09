@@ -25,7 +25,7 @@
     <header class="header section">
         <div class="container">
             <!-- LOGO -->
-            <div class="logo"><a class="logo__link link" href="index.html">Web<span class="logo__accent">Studio</span></a>
+            <div class="logo"><a class="logo__link link" href="index.html"><span class="logo__accent">Web</span>Studio</a>
             </div>
     
             <!-- MENU -->
@@ -193,64 +193,68 @@
         </section>
     </main>
 
-    <!-- ======== FOOTER ======== -->
-<footer class="section-footer section">
-    <div class="footer-content container">
-        <div class="footer-adress-wrapper">
-            <a class="footer-logo-link link" href="index.html">Web<span
-                class="footer-logo-accent">Studio</span></a>
+<!-- ======== FOOTER ======== -->
 
-            <address class="footer-address">
-            m. Warszawa, Aleje Jerozolimskie 21</address>
-            <p class="contact.footer.mail"><a class="mailto-footer-mail link"
-                href="mailto:info@example.com">info@example.com</a></p>
-            <p class="contact.footer.tel"><a class="callto-footer-tel link" href="callto:+48111111111">+48 111 111
-                111</a></p>
-        </div>
-    
+<footer class="footer section">
+    <div class="footer__content container">
+        <div class="footer__wrapper_adress">
+            <a class="logo__link logo__link_footer link" href="index.html"><span
+                    class="logo__accent">Web</span>Studio</a>
 
-    <div class="footer-social-links-wrapper link">
-        <p class="footer-social-title">dołącz do nas</p>
-        <ul class="footer-social-links-list list">
-            <a class="footer-social-links-link link" href="#">
-                <li class="footer-social-links-list-item"><svg class="footer-social-links-icon">
-                        <use href="./images/sprite.svg#icon-instagram"></use>
-                    </svg>
-                </li>
-            </a>
-
-            <a class="footer-social-links-link link" href="#">
-                <li class="footer-social-links-list-item"><svg class="footer-social-links-icon">
-                        <use href="./images/sprite.svg#icon-twitter"></use>
-                    </svg>
-                </li>
-            </a>
-
-            <a class="footer-social-links-link link" href="#">
-                <li class="footer-social-links-list-item"><svg class="footer-social-links-icon">
-                        <use href="./images/sprite.svg#icon-facebook"></use>
-                    </svg>
-                </li>
-            </a>
-
-            <a class="footer-social-links-link link" href="#">
-                <li class="footer-social-links-list-item"><svg class="footer-social-links-icon">
-                        <use href="./images/sprite.svg#icon-linkedin"></use>
-                    </svg>
-                </li>
-            </a>
-        </ul>
+            <address class="footer__address">m. Warszawa, Aleje Jerozolimskie 21</address>
+            <p><a class="footer__mailto link" href="mailto:info@example.com">info@example.com</a></p>
+            <p><a class="footer__callto link" href="callto:+48111111111">+48 111 111 111</a></p>
         </div>
 
-        <div class="footer-newsletter-wrapper">
-            <form class="newsletter">
-                <label class="newsletter-label">
-                    <p class="footer-newslettet-input-text">Zapisz się do newslettera</p>
-                    <input class="newsletter-email-input" type="email" name="newsletter" required placeholder="E-mail" />
+
+        <!-- FOOTER SOCIAL LINKS -->
+        <div class="footer__wrapper_socials">
+            <p class="socials__title">dołącz do nas</p>
+            <ul class="socials__list list socials__list_footer">
+                <li class="socials__item">
+                    <a class="socials__link link socials__link_footer " href="#">
+                        <svg class="socials__icon socials__icon_footer">
+                            <use href="./images/sprite.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="socials__item">
+                    <a class="socials__link link socials__link_footer " href="#">
+                        <svg class="socials__icon socials__icon_footer">
+                            <use href="./images/sprite.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="socials__item">
+                    <a class="socials__link link socials__link_footer " href="#">
+                        <svg class="socials__icon socials__icon_footer">
+                            <use href="./images/sprite.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="socials__item">
+                    <a class="socials__link link socials__link_footer " href="#">
+                        <svg class="socials__icon socials__icon_footer">
+                            <use href="./images/sprite.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <!-- END FOOTER SOCIAL LINKS -->
+        </div>
+
+        <div class="newsletter__wrapper">
+            <form class="newsletter__form">
+                <label class="newsletter__label">
+                    <p class="newsletter__text">Zapisz się do newslettera</p>
+                    <input class="newsletter__input" type="email" name="newsletter" required placeholder="E-mail" />
                 </label>
-                <button class="newsletter-submit-button" type="submit">
+                <button class="newsletter__btn" type="submit">
                     Zapisz się
-                    <svg class="newsletter-button-icon">
+                    <svg class="newsletter__icon">
                         <use href="./images/sprite.svg#icon-send"></use>
                     </svg>
                 </button>
