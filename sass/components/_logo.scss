@@ -4,13 +4,17 @@
 
 .logo__link {
   font-family: var(--secondary-font);
-  color: var(--secondary-color);
+  color: var(--font-black-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+  
+    &_footer{
+      color: #fff;
+    }
 }
 
 .logo__accent {
-  color: var(--font-black-color);
+  color: var(--secondary-color);
 }
