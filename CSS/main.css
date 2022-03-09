@@ -364,10 +364,12 @@ img {
   padding-bottom: 0px;
 }
 
-.footer__wrapper {
-  margin-left: 15px;
-  padding-right: 0px;
-  border: 1px solid green;
+.footer__wrapper_adress {
+  margin-left: 0px;
+}
+
+.footer__wrapper_socials {
+  margin-left: 70px;
 }
 
 .footer__address {
@@ -503,7 +505,14 @@ img {
 }
 
 .socials__title {
-  color: red;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 3%;
+  padding-top: 12px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .socials__link {

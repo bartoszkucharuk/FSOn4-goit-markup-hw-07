@@ -14,10 +14,12 @@
   }
 
   &__wrapper {
-    margin-left: 15px;
-    padding-right: 0px;
-    border: 1px solid green;
-  }
+      &_adress {
+        margin-left: 0px;}
+      &_socials {
+        margin-left: 70px;
+        }
+    }
 
    &__address {
     font-style: normal;
