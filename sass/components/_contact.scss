@@ -1,31 +1,37 @@
-.header .nav-contact {
+.header .contact {
   margin-left: auto;
 }
 
-.nav-contact-list {
+.contact__list {
   display: flex;
 }
 
-.nav-contact-link-tel,
-.nav-contact-link-mail {
+.contact__tel,
+.contact__mail {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
   padding: 1, 0;
   color: var(--main-color);
+
+  &:hover,
+  &:focus {
+    color: var(--secondary-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
-.nav-contact-link-mail {
+.contact__mail {
   margin-left: 10px;
 }
 
-.nav-contact-link-tel {
+.contact__tel {
   margin-right: 27px;
   margin-left: 50px;
 }
 
-.contact-mail-icon,
-.contact-mobile-icon {
+.contact__mail-icon,
+.contact__tel-icon {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -33,11 +39,11 @@
   fill: currentColor;
 }
 
-.contact-mail-icon {
+.contact__mail-icon {
   width: 16px;
   height: 12px;
 }
-.contact-mobile-icon {
+.contact__tel-icon {
   width: 10px;
   height: 16px;
 }
