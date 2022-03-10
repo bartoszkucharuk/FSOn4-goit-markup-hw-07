@@ -470,44 +470,44 @@
     <form class="form" autocomplete="off" action="javascript:void(0);" method="POST">
 
         <label class="form__label">
-            <span class="label__span">Imię</span>
+            <span class="form__span">Imię</span>
             <input class="form__input" type="text" name="name" required minlenght="2"/>
-                <svg class="form__icon icon-name">
+                <svg class="form__icon form__icon_name">
                     <use href="./images/sprite.svg#icon-name"></use>
                 </svg>
         </label>
 
         <label class="form__label">
-            <span class="label__span">Telefon</span>
+            <span class="form__span">Telefon</span>
             <input class="form__input" type="tel" name="tel"  required/>
-                <svg class="form__icon icon-tel">
+                <svg class="form__icon form__icon_tel">
                     <use href="./images/sprite.svg#icon-tel"></use>
                 </svg>
         </label>
         
         <label class="form__label">
-            <span class="label__span">E-mail</span>
+            <span class="form__span">E-mail</span>
             <input class="form__input icon-mail" type="email" name="email" required/>
-                <svg class="form__icon icon-mail">
+                <svg class="form__icon form__icon_mail">
                     <use href="./images/sprite.svg#icon-mail"></use>
                 </svg>
         </label>
 
         <label class="form__label">
-            <span class="label__span">Komentarz</span>
-            <textarea class="comment__textarea" type="comment" name="comment"  placeholder="Wprowadź tekst"></textarea>
+            <span class="form__span">Komentarz</span>
+            <textarea class="form__textarea" type="comment" name="comment"  placeholder="Wprowadź tekst"></textarea>
         </label>
 
-    <div class="checkbox-wrap">
+    <div class="form__checkbox-wrap">
 
         <label>
-        <input type="checkbox" class="checkbox" unchecked name="terms_and_conditions" value="terms_and_conditions"/>
-        <p class=checkbox-text>Oświadczam, iż akceptuję <a class="form-link link" target="_blank" href="#">&nbsp;Regulamin&nbsp;</a>&nbsp;i&nbsp;<a class="form-link link" target="_blank" href="#">&nbsp;Politykę Prywatności.</a></p>
+        <input class="form__checkbox" type="checkbox" unchecked required name="terms_and_conditions" value="terms_and_conditions"/>
+        <p class=form__checkbox-text>Oświadczam, iż akceptuję&nbsp;<a class="form__link link" target="_blank" href="#">Regulamin</a>&nbsp;i&nbsp;<a class="form__link link" target="_blank" href="#">Politykę Prywatności.</a></p>
         </label>
         
     </div>
        
-        <button class="submit-button" type="submit">wyślij</button>
+        <button class="submit-btn" type="submit">wyślij</button>
     
     </form>
 </section>
