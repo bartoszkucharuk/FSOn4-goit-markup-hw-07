@@ -33,7 +33,7 @@
     width: 12px;
     height: 12px;
     margin-right: 15px;
-    fill: #212121;
+    fill: currentColor;
     &_name {
       top: 107px;
     }
@@ -61,7 +61,6 @@
     margin-bottom: 20px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-
     &::placeholder {
       font-size: 12px;
       line-height: 1.172;
@@ -74,13 +73,13 @@
   &__textarea {
     box-sizing: border-box;
     border-radius: 4px;
+    &:active,
     &:hover,
-    &:focus-within,
-    &:hover,
+    &:focus,
     &:focus-within {
       border-color: var(--secondary-color);
       border-radius: 4px;
-      fill: var(--font-black-color);
+      fill: var(--second-color);
     }
   }
 
@@ -106,7 +105,6 @@
     line-height: 1.174;
     letter-spacing: 3%;
     color: var(--main-color);
-
     &::before {
       content: "";
       width: 16px;
@@ -132,21 +130,21 @@
     color: var(--secondary-color);
     text-decoration: underline;
   }
+}
 
-  .submit-btn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    width: 200px;
-    height: 50px;
-    color: white;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 6%;
-    background-color: #2196f3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-  }
+.submit-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 6%;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
