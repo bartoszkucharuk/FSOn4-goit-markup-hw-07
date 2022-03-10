@@ -390,6 +390,16 @@ img {
   color: #999999;
 }
 
+.footer__mailto-p {
+  margin-top: 9px;
+  margin-bottom: 0px;
+}
+
+.footer__callto-p {
+  margin-top: 9px;
+  margin-bottom: 60px;
+}
+
 .clients .section {
   display: flex;
 }

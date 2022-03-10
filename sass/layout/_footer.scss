@@ -14,14 +14,15 @@
   }
 
   &__wrapper {
-      &_adress {
-        margin-left: 0px;}
-      &_socials {
-        margin-left: 70px;
-        }
+    &_adress {
+      margin-left: 0px;
     }
+    &_socials {
+      margin-left: 70px;
+    }
+  }
 
-   &__address {
+  &__address {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -34,5 +35,15 @@
   &__mailto,
   &__callto {
     color: hsl(0, 0%, 60%);
+  }
+
+  &__mailto-p {
+    margin-top: 9px;
+    margin-bottom: 0px;
+  }
+
+  &__callto-p {
+    margin-top: 9px;
+    margin-bottom: 60px;
   }
 }
