@@ -5,9 +5,8 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
-  visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
-    // cursor: not-allowed;
+  transition: var(--transition-cubic-bezier-backdrop-750ms);
+  // cursor: not-allowed;
 }
 
 .modal {
@@ -17,10 +16,10 @@
   transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
-  background-color: #fff;
+  background-color: var(--ideal-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: var(--border-radius-4);
   padding: 40px;
 }
 
@@ -30,11 +29,11 @@
   right: 8px;
   width: 30px;
   height: 30px;
-  background: #ffffff;
+  background: var(--ideal-white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  border-radius: 50%;
-  fill: black;
+  border-radius: var(--border-radius-50);
+  fill: var(--ideal-black-color);
   cursor: pointer;
 }
 

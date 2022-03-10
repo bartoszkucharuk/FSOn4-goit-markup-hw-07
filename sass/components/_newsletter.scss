@@ -13,12 +13,12 @@
     display: flex;
     font-family: var(--main-font);
     text-align: left;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-700);
     text-transform: uppercase;
-    line-height: 1.172;
-    letter-spacing: 3%;
-    color: #fff;
+    line-height: var(--line-height-1_172);
+    letter-spacing: var(--letter-spacing-003em);
+    color: var(--ideal-white-color);
   }
   &__form {
     position: relative;
@@ -30,20 +30,18 @@
   &__input {
     display: flex;
     align-items: center;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 3%;
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-1_250);
+    letter-spacing: var(--letter-spacing-003em);
     color: rgba(255, 255, 255, 0.6);
-    background-color: transparent;
+    background-color: var(--transparent-color);
     padding-left: 16px;
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
   }
-  
+
   &__btn {
     position: absolute;
     display: block;
@@ -56,14 +54,14 @@
     padding-right: 24px;
     width: 200px;
     height: 50px;
-    color: white;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 6%;
-    background-color: #2196f3;
+    color: var(--ideal-white-color);
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-1_875);
+    letter-spacing: var(--letter-spacing-006em);
+    background-color: var(--secondary-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    border-radius: var(--border-radius-4);
   }
 
   &__icon {
@@ -72,6 +70,6 @@
     margin-right: 13px;
     width: 24px;
     height: 24px;
-    fill: #fff;
+    fill: var(--ideal-white-color);
   }
 }

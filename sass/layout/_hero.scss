@@ -8,7 +8,7 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  background-color: #2f303a;
+  background-color: var(--footer-dark-color);
   margin-bottom: 94px;
   width: 1600px;
   margin: 0 auto 94px auto;
@@ -31,11 +31,11 @@
     justify-content: center;
     align-items: center;
     height: 120px;
-    color: #fff;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.367;
-    letter-spacing: 0.06em;
+    color: var(--ideal-white-color);
+    font-size: var(--font-size-44);
+    font-weight: var(--font-weight-900);
+    line-height: var(--line-height-1_367);
+    letter-spacing: var(--letter-spacing-006em);
     text-align: center;
   }
 
@@ -43,15 +43,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: var(--ideal-white-color);
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     padding: 10 41 10 42;
     width: 200px;
     height: 50px;
-    background: #2196f3;
+    background: var(--secondary-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    border-radius: var(--border-radius-4);
   }
 }

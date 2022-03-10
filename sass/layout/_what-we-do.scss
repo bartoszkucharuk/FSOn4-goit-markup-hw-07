@@ -1,8 +1,8 @@
 .what-we-do {
   &__header {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.172;
+    font-weight: vara(--font-weight-700);
+    font-size: var(--font-size-36);
+    line-height: var(--line-height-1_172);
     text-align: center;
     margin-top: 94px;
     margin-bottom: 50px;
@@ -25,9 +25,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
-    font-weight: 700;
-    color: #fff;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-700);
+    color: var(--ideal-white-color);
     width: 100%;
     top: 224px;
     text-align: center;

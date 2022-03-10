@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   height: 100%;
-  background-color: #2f303a;
+  background-color: var(--footer-dark-color);
   display: block;
 
   &__content {
@@ -24,17 +24,17 @@
 
   &__address {
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: #ffffff;
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-1_174);
+    letter-spacing: var(--letter-spacing-003em);
+    color: var(--ideal-white-color);
     margin-top: 20px;
   }
 
   &__mailto,
   &__callto {
-    color: hsl(0, 0%, 60%);
+    color: var(--footer-contact-icon);
   }
 
   &__mailto-p {
